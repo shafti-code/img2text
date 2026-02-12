@@ -1,5 +1,5 @@
-#img2text
-##Usage
+# img2text
+## Usage
 
 ```console
 img2ascii: <flags> <input_path>
@@ -10,7 +10,7 @@ img2ascii: <flags> <input_path>
 	-s		print the output to standard output
 ```
 
-##Compiling
+## Compiling
 
 to compile this project you will need a c compiler (gcc) and gnumake
 
@@ -34,7 +34,7 @@ make fast
 ```
 the result will wait for you in ./build/img2text
 
-##Some notes
+## Some notes
 
 - this program is not super optimized and i reckognize that the order in which
 the passes are done could be optimized... this program is mostly for educational purposes
