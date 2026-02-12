@@ -226,9 +226,13 @@ int main(int argc, char ** argv){
     debugf("Loaded image with a width of %dpx, a height of %dpx and %d channels\n", img.width, img.height, img.channels);
 
     Image grayscale_img = grayscale(img);
-    Image small_img = downscale(grayscale_img,height,width);
-    Image quantized_img = quantize(small_img,10);
-    image2ascii(quantized_img,outputpath);
+
+    Image quantized_img = quantize(grayscale_img,10);
+
+    Image small_img = downscale(quantized_img,height,width);
+
+
+    image2ascii(small_img,outputpath);
 
 
     free(grayscale_img.data);
