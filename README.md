@@ -36,7 +36,7 @@ the result will wait for you in ./build/img2text
 
 ## Some notes
 
-- this program is not super optimized and i reckognize that the order in which
+- this program is not super optimized and i recognize that the order in which
 the passes are done could be optimized... this program is mostly for educational purposes
 
 - some features are planned for the future but no promises ! :)
